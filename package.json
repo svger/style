@@ -1,5 +1,5 @@
 {
-  "name": "@cefc-ui/style",
+  "name": "cefc-ui-style",
   "version": "0.0.4",
   "description": "cefc style",
   "main": "index.js",
