@@ -21,3 +21,25 @@
   transform: scaleY(@scale);
   transform-origin: 0 0;
  }
+
+.setImage(@width, @url, @position-x: center, @position-y: center) {
+  background: url(@url) no-repeat;
+  background-size: @width auto;
+  background-position: @position-x @position-y;
+}
+
+.flex-layout(@justify: center, @align: center) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.size(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+.setFont(@size: 14rem, @color: #ffffff) {
+  font-size: @size;
+  color: @color;
+}
