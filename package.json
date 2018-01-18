@@ -1,9 +1,14 @@
 {
   "name": "cefc-ui-style",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "基础样式及默认皮肤",
-  "main": "./lib/base/index.js",
-  "module": "./es/base/index.js",
+  "main": "lib/base/index.js",
+  "module": "es/base/index.js",
+  "files": [
+    "lib",
+    "es",
+    "src"
+  ],
   "npmName": "cefc-ui-style",
   "npmFileMap": [
     {
