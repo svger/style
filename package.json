@@ -1,9 +1,18 @@
 {
   "name": "cefc-ui-style",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "基础样式及默认皮肤",
   "main": "./lib/base/index.js",
   "module": "./es/base/index.js",
+  "npmName": "cefc-ui-style",
+  "npmFileMap": [
+    {
+      "basePath": "/lib/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "scripts": {
     "start": "parcel ./demo/index.html",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir ./lib",
