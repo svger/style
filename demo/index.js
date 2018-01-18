@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import Theme from '../src/themes/default';
-import { flex } from '../src/mixins/utils';
+import { flex } from '../src/mixins';
 
 import '../src/base/index';
 
