@@ -1,11 +1,24 @@
 {
   "name": "cefc-ui-style",
   "version": "0.0.5",
-  "description": "cefc style",
+  "description": "基础样式及默认皮肤",
   "main": "index.js",
   "scripts": {
+    "start": "parcel ./demo/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "~2.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel-bundler": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
