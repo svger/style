@@ -1,6 +1,6 @@
 {
   "name": "cefc-ui-style",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "基础样式及默认皮肤",
   "main": "index.js",
   "scripts": {
